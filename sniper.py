@@ -180,7 +180,7 @@ class sniper:
                                                                 
                                 color = 'fc0303',url='https://magiceden.io/item-details/'+ self.mintaddress)
                     embed.set_thumbnail(url = self.image)
-                    embed.set_footer(text = f'{currentversion} | created by Combo#2137', icon_url = 'http://j1gtools.pl/logonowe.png')
+                    embed.set_footer(text = f'{currentversion} | created by Combo#2137', icon_url = '')
                     embed.set_timestamp()
                     embed.add_embed_field(name = 'User wallet :', value = f'||{self.payer}||', inline = False)
                     embed.add_embed_field(name = 'Collection :',   value = f'```{str(self.collection_name)}```')
@@ -231,7 +231,7 @@ class sniper:
                                                                     
                                     color = 'fc0303',url='https://magiceden.io/item-details/'+ self.mintaddress)
                         embed.set_thumbnail(url = self.image)
-                        embed.set_footer(text = f'{currentversion} | created by Combo#2137', icon_url = 'http://j1gtools.pl/logonowe.png')
+                        embed.set_footer(text = f'{currentversion} | created by Combo#2137', icon_url = '')
                         embed.set_timestamp()
                         embed.add_embed_field(name = 'User wallet :', value = f'||{self.payer}||', inline = False)
                         embed.add_embed_field(name = 'Collection :',   value = f'```{str(self.collection_name)}```')
@@ -338,7 +338,7 @@ class sniper:
                                                                             
                                             color = 'fc0303',url='https://magiceden.io/item-details/'+ self.mintaddress)
                                 embed.set_thumbnail(url = self.image)
-                                embed.set_footer(text = f'j1g mint 0.0.1 | created by Combo#2137', icon_url = 'http://j1gtools.pl/logonowe.png')
+                                embed.set_footer(text = f'j1g mint 0.0.1 | created by Combo#2137', icon_url = '')
                                 embed.set_timestamp()
                                 embed.add_embed_field(name = 'User wallet :', value = f'||{self.payer}||', inline = False)
                                 embed.add_embed_field(name = 'Collection :',   value = f'```{str(self.collection_name)}```')
